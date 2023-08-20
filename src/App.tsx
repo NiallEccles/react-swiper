@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <h1 className='bg-red-400'>Hello there!</h1>
-        <SwiperContainer items={items}/>
+        {/* <h1 className='bg-red-400'>Hello there!</h1> */}
+        <SwiperContainer items={items} currentItem={0}/>
       </div>
     </>
   )
